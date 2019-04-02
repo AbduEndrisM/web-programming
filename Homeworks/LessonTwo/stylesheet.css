@@ -1,0 +1,28 @@
+
+.header{
+    width: 80%;
+text-align: center;
+}
+.footer{
+    width: auto;
+}
+.header-paragraph{
+    width: 80%;
+    align-content: center;
+    margin-left: 50px;
+}
+.right{
+    width: 200px;
+}
+.title{
+    color:darkgreen;
+    size:23px;
+    margin-left: 200px;
+    width: 300px;
+
+}
+.modes img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
