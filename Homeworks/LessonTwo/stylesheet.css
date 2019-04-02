@@ -6,6 +6,15 @@ body{
 .header{
 text-align: left;
 }
+.name-two{
+    -moz-transform:rotate(180deg); /* Firefox */
+    -webkit-transform:rotate(180deg); /* Webkit */
+    -ms-transform:rotate(180deg); /* IE */
+    -o-transform:rotate(180deg); /* Opera */
+    transform:rotate(180deg); /* future */
+    position: absolute;
+
+}
 
 h4{
     font-family: "Times New Roman", Cambria, sans-serif;
@@ -31,4 +40,21 @@ h4{
     width: 150px;
     height: 150px;
     border-radius: 10px;
+}
+
+.movies a {
+    text-decoration: none;
+    color: red;
+
+}
+.movies ol li ul li ul {
+    color: navy;
+
+}
+.movies ol li ul {
+    color: purple;
+
+}
+.movies ol li ul {
+    list-style-type: none;
 }
