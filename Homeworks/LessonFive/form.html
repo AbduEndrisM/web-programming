@@ -10,28 +10,85 @@
 
     <link href="../favicon.ico" type="image/JPG" rel="shortcut icon"/>
 
+        <style>
+            .div{
+                padding: 10px;
+
+            }
+            table {
+                border-collapse: collapse;
+                width: 80%;
+            }
+
+            th, td {
+                text-align: left;
+                padding: 8px;
+            }
+
+            tr:nth-child(even){background-color: #f2f2f2}
+
+            th {
+                background-color: #4CAF50;
+                color: white;
+            }
+
+        </style>
+
+        <script>
+        onclick{
+
+        }
+        </script>
     </head>
     <body>
 
 
     <form action="#" method="POST">
-        <label> Product ID</label>
+<div class="div">
+    <label> Task</label> <br><input type="text" placeholder="task">
+</div>
 
-        <input type="text" />
-        <label><input type="text" /></label>
+        <div class="div">
+            <label> Required by: </label> <br><input type="date"  >
+        </div>
+
+        <div class="div">
+        <label>Category</label> <br>
 
         <select >
-            <option>Abdu</option>
-            <option>Abdu</option>
-            <option>Abdu</option>
-        </select>
-        <input type="date" />
-        <input type="submit" value="Save">
-        <input type="reset" value="Reset">
+            <option>Personal</option>
+            <option>Work</option>
 
+        </select>
+
+            <div class="div">
+        <input type="submit" value=" Save "  onclick="insert">
+        <input type="reset" value=" Reset ">
+        </div>
+        </div>
 
     </form>
 
+
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Due</th>
+            <th>Category</th>
+        </tr>
+        <tr>
+            <td>Abdu</td>
+            <td>05-12-2019</td>
+            <td>Book</td>
+        </tr>
+        <tr>
+            <td>Abdu</td>
+            <td>05-12-2019</td>
+            <td>Book</td>
+        </tr>
+
+
+    </table>
 <!--
 
 
