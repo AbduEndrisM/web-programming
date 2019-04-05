@@ -1,9 +1,8 @@
 
 body {
     background-image: url("background.png");
-    /*background-repeat: repeat;*/
     font-size: 8pt;
-    font-family: Verdana Tahoma Serif;
+    font-family: Verdana Tahoma sans-serif;
     margin: 0px;
     padding: 0px;
 }
@@ -23,40 +22,32 @@ body {
 }
 
 #title {
+    font-weight: bold;
     text-align: center;
     font-size: 24pt;
     font-family: Tahoma Verdana sans-serif;
     text-shadow: 3px 3px #999999;
+    margin: 10px;
 }
 
-.container{
-
-}
 .wrapper {
     /*width: calc(100% - 80px);*/
 
     width: 800px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+
+    grid-template-areas: " a b " " c c";
     border: gray solid 4px;
     border-radius: 20px;
     box-sizing: border-box;
-
-    /*grid-template-columns: repeat(3, 1fr);*/
-    /*grid-column-gap: 1em;*/
-    /*grid-row-gap: 1em;*/
+    margin: 0px;
+    padding: 0px;
 }
 
-.wrapper div {
-    /*background: yellow;*/
-    /*padding: 1em;*/
-    /*border: #105cb6 solid 1px;*/
-
-    grid-template-areas: "a b ";
-    align-items: start;
-}
 
 #left {
+    grid-area: a;
     width: 550px;
 }
 
@@ -64,7 +55,6 @@ body {
     background-image: url("rbg.png");
     background-repeat: repeat-x;
     height: 83px;
-
     border-radius: 15px 0px 0px 0px;
     margin: 0px;
     padding: 0px;
@@ -76,7 +66,6 @@ body {
     background-repeat: no-repeat;
     margin: 0px;
     padding: 0px;
-
     border-radius: 20px 0px 0px 0px;
 }
 
@@ -84,15 +73,15 @@ body {
     font-size: 48pt;
     color: red;
     font-weight: bold;
-    text-align: left;
+    text-align: right;
+    font-style: normal;
 }
 
 
 #two-column {
-
     display: flex;
     flex-direction: row;
-    border: black 2px solid;
+    /*border: black 2px solid;*/
     /*background-color: #105cb6;*/
     float: left;
     /*display: grid;*/
@@ -107,57 +96,73 @@ body {
 
 }
 
-#two-column >div{
+#two-column > div {
     /*background-color: #f1f1f1;*/
     width: 47%;
-    height: 100%;
-    margin: 0px;
+    /*height: 100%;*/
+    margin: 0% 0% 0% 2%;
     padding: 0px;
     /*text-align: center;*/
     /*float: left;*/
-border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
-.box{
+.box {
     font-size: 8pt;
+    font-weight: bold;
     background-color: #E8DC9B;
     border: 2px gray solid;
     border-radius: 10px;
     padding: 8px;
     margin: 10pt;
+    text-align: left;
 }
 
-.qoute-box{
+.box.negative {
+
+    margin-right: 5px;
+    background-image: url("rotten.gif");
+    background-repeat: no-repeat;
+
+}
+
+
+.box.positive {
+    margin-right: 5px;
+    background-image: url("fresh.gif");
+    background-repeat: no-repeat;
+
+}
+
+
+.qoute {
+    margin: 10px 5px;
+    background-image: url("critic.gif");
+    background-repeat: no-repeat;
+    /*margin-right: 5px;*/
+    box-sizing: border-box;
+
+}
+
+span {
+    text-align: left;
     font-style: italic;
-    /*margin: 10pt;*/
 }
-#left {
-
-}
-
-#left-left {
-}
-
-#left-right {
-}
-
-
-
 
 #right {
-    margin: 0px;
-    padding: 0px;
+    grid-area: b;
+
     background-color: #A2B964;
     width: 250px;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 20px 0px 0px;
     box-sizing: border-box;
     /*padding: 0px 5px 0px 0px;*/
 
 }
 
 
-#right-top  {
-    padding: 0px ;
+#right-top {
+    padding: 0px;
     width: 250px;
     /*margin: 0px 0px 10px 0px;*/
     background-image: url("overview.png");
@@ -168,22 +173,37 @@ border: 1px solid red;
 }
 
 #right-down {
-    padding: 10pt 0px 0px 0px;
-    font-family: Arial sans-serif;
+    padding-left: 10px;
+        font-family: Arial sans-serif;
     /*border: solid red 2px;*/
     font-size: 8pt;
     text-align: left;
 
 }
 
+
+#review {
+    grid-area: c;
+    border-radius: 0px 0px 20px 20px;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 5px;
+    background-color: #A2B964;
+}
+
+
 dt {
     font-size: 10px;
     font-weight: bold;
+    margin: 5px 0px;
+    box-sizing: border-box;
 
 }
 
-#review{
-    height: 20px;
-    width: 800px;
-    background-color: #105cb6;
+
+footer {
+    text-align: right;
+}
+footer image{
+    opaq: 0.5%;
 }
