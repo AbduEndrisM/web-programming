@@ -27,7 +27,6 @@
             ;
         }
 
-
         console.log("Expected output of max(20,10) is 20  " + myFunctionTest(20, function () {
             return max(20, 10);
         }));
@@ -71,11 +70,17 @@
             // return ['a', 'e', 'i', 'o', 'u'].indexOf(c.toLowerCase()) !== -1
         }
 
+        console.log("Expected output of isVowel(\"a\") is true  " + myFunctionTest(true, function () {
+            return isVowel1("a");
+        }));
+        console.log("Expected output of isVowel(\"b\") is false  " + myFunctionTest(false, function () {
+            return isVowel2("b");
+        }));
 
         /*sum() and a function multiply() that sums and multiplies (respectively*/
 
         /*One*/
-        function sum1() {
+        function sum1(a) {
             let s = 0;
             for (let i = 0; i < a.length; i++) {
                 s = s + a[i];
@@ -87,6 +92,10 @@
         function sum2(a) {
             return (a.reduce((total, num) => total + num, 0));
         }
+
+        console.log("Expected output of sum2(\"a\") is 6  " + myFunctionTest(6, function () {
+            return sum2([1, 2, 3]);
+        }));
 
 
         /*One*/
@@ -104,6 +113,10 @@
 
         }
 
+        console.log("Expected output of multiplay2(\"a\") is 30  " + myFunctionTest(30, function () {
+            return multiplay2([2, 3, 5]);
+        }));
+
 
         /* Define a function  reverse() that computes the reversal of a string.*/
         function reverse(a) {
@@ -112,6 +125,10 @@
             }
             return reverse(a.substring(1)) + a.charAt(0);
         }
+
+        console.log("Expected output of reverse(\"abdu\") is udba  " + myFunctionTest("udba", function () {
+            return reverse("abdu");
+        }));
 
 
         /*Write a function findLongestWord() that takes an array of words and returns the length of the longest one*/
@@ -153,6 +170,9 @@
             return newA;
         }
 
+        console.log("Expected output of filterLongWords2([\"122\", \"abcd\",\"as\"], 3) is abcd  " + myFunctionTest("abcd", function () {
+            return filterLongWords1(["122", "abcd", "as"], 3);
+        }));
 
 
 
