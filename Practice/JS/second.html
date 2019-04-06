@@ -9,24 +9,21 @@
     function swap() {
 
         var x = document.getElementById("sleep");
-        // if(x.src=="sleeping.jpg")
-        //  x.src = "coding.jpg";
-        // else
-        //     x.src = "sleeping.jpg";
+        var currentImg = x.src;
 
-        var y = x.src;
-        var z = y.indexOf("sleep");
-        if (z == "sleep")
-            y = "sleeping.jpg"
+        var isSleeping = currentImg.indexOf("sleep");
+        // document.writeln(isSleeping);
+        if (isSleeping >-1)
+            x.src = "coding.jpg";
         else
-            y = "coding.jpg";
+            x.src = "sleeping.jpg";
 
 
     }
 
 </script>
 
-<img src="../CSS/sleeping.jpg" id="sleep" width="200px" height="200px"/>
+<img src="sleeping.jpg" id="sleep" width="200px" height="200px" alt="test"/>
 <input type="button" value="SWAP" onclick="swap()">
 </body>
 </html>
