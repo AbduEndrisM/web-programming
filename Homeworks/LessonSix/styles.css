@@ -4,11 +4,11 @@ body {
     padding: 0px;
 }
 
-    .container {
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-    }
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
 
 @media (min-width: 600px) {
@@ -34,20 +34,32 @@ nav {
     padding: 30px;
     text-align: center;
     font-size: 1em;
- }
+}
+/*
 
-#menu{
+canvas {
+    grid-column: span 3;
+    padding: 30px;
+    text-align: center;
+    font-size: 1.4em;
+    background-color: #ff00aa;
+    color: white;
+}
+*/
+
+#menu {
     float: right;
 }
-#txt{
-    font-family: "Helvetica", "Arial", sans-serif  ;
-text-align: center;
-    font-size: 3em;
+
+#txt {
+    font-family: "Helvetica", "Arial", sans-serif;
+    text-align: center;
+    font-size: 2em;
+
 }
 
 
-
-#validator{
+#validator {
     float: right;
 
 
