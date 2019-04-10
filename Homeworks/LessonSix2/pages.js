@@ -20,14 +20,14 @@ function pageTwo() {
     // text.style.textAlign = "left";
     // nav.style.padding="5px";
     // text.innerHTML = "<p> Today you'll write a page where the user can type text into a box, and by clicking on UI controls, the user can decorate the text by giving it funny styling." +
-    //     " </p> <p>The HTML page decoratemytext.html contains a basic HTML shell and page header. This skeleton already links to a CSS file decoratemytext.css that defines all the styles you need. You do not have to write any CSS code today.\n" +
+    //     " </p> <p>The HTML page draw.html contains a basic HTML shell and page header. This skeleton already links to a CSS file decoratemytext.css that defines all the styles you need. You do not have to write any CSS code today.\n" +
     //     "\n</p> <p>You will write a JavaScript file decoratemytext.js that will manipulate the text.\n" +
     //     "\n</p><p> Download the HTML file below (right-click, Save Target As...) to get started:\n" +
-    //     "\n</p> <ul><li><a href='decoratemytext.html'> decoratemytext.html</a> </li></ul>"
+    //     "\n</p> <ul><li><a href='draw.html'> draw.html</a> </li></ul>"
 
 
     text.innerHTML = "<p> Please click the following link!</p> " +
-        "<a href='myhtml.html' target=\"_blank\"> decoratemytext.html</a> ";
+        "<a href='#' target=\"_blank\"> draw.html</a> ";
 
 }
 
@@ -36,7 +36,7 @@ function pageThree() {
     var text = document.getElementById("txt");
     text.style.fontSize = "1.5em";
     text.style.textAlign = "left";
-    text.innerHTML = "<p> (See example screenshot on next slide.)</p> <p>The first task is to expand decoratemytext.html by adding UI controls. Add HTML code for the following:\n</p>" +
+    text.innerHTML = "<p> (See example screenshot on next slide.)</p> <p>The first task is to expand draw.html by adding UI controls. Add HTML code for the following:\n</p>" +
         "<ul><li>A field for users to enter large (multi-line) amounts of text.\n</li><ul><li> It should be 4 rows by 30 columns in size.</li><li>Wrap it in a bordered field set box with the label \"Text\".\n</li></ul></li>" +
         // "Add a second bordered field set box labeled \\\"Decoration\\\" that contains the following controls:\\n<li> A button labeled: Bigger Decorations!\\n</li><li> A checkbox labeled \\\"Bling\\\"\\n</li></ul><li> <strong>NOTE: Controls are sometimes used in forms; but you must not use the form tag on your page.</strong></li></ul>\"+"
         "<li>Add a second bordered field set box labeled \"Decoration\" that contains the following controls:\n</li><ul><li> A button labeled: Bigger Decorations!\n</li><li>A checkbox labeled \"Bling\"\n</li></ul></li>" +
@@ -51,7 +51,7 @@ function pageFour() {
 
     var text = document.getElementById("txt");
     text.innerHTML = "<p> Your page should look like this: </p>" +
-        "<a href='decoratemytext.html'> sads</a>";
+        "<a href='#'> sads</a>";
     text.style.cssFloat = "left";
 
 
