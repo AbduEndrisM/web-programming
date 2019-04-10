@@ -1,26 +1,33 @@
 function pageOne() {
 
     var text = document.getElementById("txt");
+    // text.innerHTML =
+    //     "<ul> " +
+    //     "<li> You may want to bring your textbook to labs to look up syntax and examples.\n</li>" +
+    //     "<li> Have a question? Ask a TA for help, or look at the book or  <a href='http://mumstudents.org/cs472/2016-05-BL/Lectures/'>lecture slides. </a> \n</li>" +
+    //     "<li> You may want to bring your textbook to labs to look up syntax and examples.\n</li> </ul>"
+    // ;
+
     text.innerHTML =
-        "<ul> " +
-        "<li> You may want to bring your textbook to labs to look up syntax and examples.\n</li>" +
-        "<li> Have a question? Ask a TA for help, or look at the book or  <a href='http://mumstudents.org/cs472/2016-05-BL/Lectures/'>lecture slides. </a> \n</li>" +
-        "<li> You may want to bring your textbook to labs to look up syntax and examples.\n</li> </ul>"
+        "<p>Are you ready? Let's go!</p>"
     ;
 
 }
 
 function pageTwo() {
     var text = document.getElementById("txt");
-    text.style.fontSize = "1.5em";
-    text.style.textAlign = "left";
+    // text.style.fontSize = "1.5em";
+    // text.style.textAlign = "left";
     // nav.style.padding="5px";
-    text.innerHTML = "<p> Today you'll write a page where the user can type text into a box, and by clicking on UI controls, the user can decorate the text by giving it funny styling." +
-        " </p> <p>The HTML page decoratemytext.html contains a basic HTML shell and page header. This skeleton already links to a CSS file decoratemytext.css that defines all the styles you need. You do not have to write any CSS code today.\n" +
-        "\n</p> <p>You will write a JavaScript file decoratemytext.js that will manipulate the text.\n" +
-        "\n</p><p> Download the HTML file below (right-click, Save Target As...) to get started:\n" +
-        "\n</p> <ul><li><a href='decoratemytext.html'> decoratemytext.html</a> </li></ul>"
+    // text.innerHTML = "<p> Today you'll write a page where the user can type text into a box, and by clicking on UI controls, the user can decorate the text by giving it funny styling." +
+    //     " </p> <p>The HTML page decoratemytext.html contains a basic HTML shell and page header. This skeleton already links to a CSS file decoratemytext.css that defines all the styles you need. You do not have to write any CSS code today.\n" +
+    //     "\n</p> <p>You will write a JavaScript file decoratemytext.js that will manipulate the text.\n" +
+    //     "\n</p><p> Download the HTML file below (right-click, Save Target As...) to get started:\n" +
+    //     "\n</p> <ul><li><a href='decoratemytext.html'> decoratemytext.html</a> </li></ul>"
 
+
+    text.innerHTML = "<p> Please click the following link!</p> " +
+        "<a href='myhtml.html' target=\"_blank\"> decoratemytext.html</a> ";
 
 }
 
@@ -35,6 +42,8 @@ function pageThree() {
         "<li>Add a second bordered field set box labeled \"Decoration\" that contains the following controls:\n</li><ul><li> A button labeled: Bigger Decorations!\n</li><li>A checkbox labeled \"Bling\"\n</li></ul></li>" +
 
         "  <li><strong> NOTE: Controls are sometimes used in forms; but you must not use the form tag on your page. </strong></li>"
+
+
 }
 
 
@@ -42,16 +51,15 @@ function pageFour() {
 
     var text = document.getElementById("txt");
     text.innerHTML = "<p> Your page should look like this: </p>" +
-        "<img src='output1-controls.png' alt='asdsa' />";
+        "<a href='decoratemytext.html'> sads</a>";
     text.style.cssFloat = "left";
+
+
 }
 
 function pageFive() {
+alert("Hello World!")
 
-    var text = document.getElementById("txt");
-    text.innerHTML = "<p> Now you'll write a bit of JavaScript testing code that pops up an alert box. This is just a test to make sure that your browser is running your JavaScript file, before we move on to tougher exercises.</p>" +
-        "<img src='output1-controls.png' alt='asdsa' />";
-    text.style.cssFloat = "left";
 }
 
 function change(x) {
