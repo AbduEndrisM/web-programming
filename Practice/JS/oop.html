@@ -5,7 +5,7 @@
     <title>Objects and prototypes</title>
     <script>
 
-        //Create objects using Inline method
+        //1 - Create objects using Inline method
 
         var emp1 = {};
         emp1.fName = "Abdu";
@@ -16,7 +16,7 @@
         emp2.fName = "Sobah";
         emp2.lName = "Edris";
 
-        //Create objects using function
+        // 2 - Create objects using function
         function createEmployee(firstName, lastName) {
             var emp = {};
             emp.fName = firstName;
@@ -28,7 +28,7 @@
         var emp4 = createEmployee("Abdu", "Ahmed");
 
 
-        //Create Objects using constructors (using new) - function name starts with capital letter- convention
+        // 3 - Create Objects using constructors (using new) - function name starts with capital letter- convention
 
         function Employee(firstName, lastName) {
             this.fName = firstName;
@@ -79,18 +79,55 @@
 
         }
 
-        let obj421 ={fName:"Ahmed", test: function () {
+        let obj421 = {
+            fName: "Ahmed", test: function () {
                 console.log("Hello");  //Abdu
                 console.log(this);   //function
-            }};
+            }
+        };
 
         //4.3 this referes to an empty object when the function created using the new keyword
 
         function func43() {
-            console.log("Abdu");
-            console.log(this);  // empty object = _proto_
+         //   console.log("Abdu");
+       //     console.log(this);  // empty object = _proto_
         }
+
         new func43();
+
+
+
+        // #4 using call
+        // this working on objects with this reference
+        //https://www.youtube.com/watch?v=vvV-GZ6AMMY&list=PLqq-6Pq4lTTaflXUL0v3TSm86nodn0c_u&index=10
+
+        function Bicycle(cadence, speed, gear, tirePressure) {
+            this.cadence = cadence;
+            this.speed = speed;
+            this.gear = gear;
+            this.tirePressure = tirePressure;
+            this.inflateTires = function () {
+                this.tirePressure = this.tirePressure+5;
+            }
+        }
+
+         let bicycle1 = new Bicycle(40, 20, 4, 25);
+         let bicycle2 = new Bicycle(40, 20, 5, 29);
+
+
+
+        // A person who is gonna inflate the tire
+        function Mechanic(name) {
+            this.name = name;
+        }
+        // Mike is gonna inflate bike 1
+        let mike = new Mechanic("Abdu");
+         //mike.inflateTires =bicycle1.inflateTires; //this couldn't inflate bike 1 because this.inflattires of Bicycle is
+                                                    // mike's tirePressure which is undefined;
+        //so we shoud use call binding
+
+        mike.pump = bicycle1.inflateTires;   // no tirepressure property of mike = undefined
+        //run from console mike.pump.call(bicycle1);
 
 
 
