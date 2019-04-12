@@ -12,69 +12,84 @@
     // console.log("This house is not nice!".filter('not'));
     // Output: "This house is nice!"
 
-    var filter = {bad: ["not"]};
 
-    function filter(string) {
+    function badWordCatch(badWords) {
 
-        //    string.filter(x=>
+        var wordInput = "Abdu Endris fuck is a good student he doesn't smoke week";
+        wordInput = wordInput.toLowerCase();
+
+        // split the words by spaces (" ")
+        var arr = wordInput.split(" ");
+        // bad words to look for, keep this array in lowercase
+
+        // .toLowerCase will do the case insensitive match!
+        var foundBadWords = arr.filter(el => badWords.includes(el));
+        var foundGoodWords = arr.filter(el => !badWords.includes(el));
+
+        // document.writeln("Good words \n " + foundGoodWords);
+        console.log("\n Found good words \n " + foundGoodWords);
+        console.log("\n Found bad words \n" + foundBadWords);
 
     }
 
-    /*
+    badWordCatch(["fuck", "porn", "weed"]);
 
-        //Question 2
 
-        function bubbleSort(numbers) {
-            let length = numbers.length;
+    //Question 2
 
-            for (let i = 0; i < length; i++) {
-                for (let j = 0; j < (length - i - 1); j++) {
-                    if (numbers[j] > numbers[j + 1]) {
-                        let tmp = numbers[j];
-                        numbers[j] = numbers[j + 1];
-                        numbers[j + 1] = tmp;
-                    }
+    function bubbleSort(numbers) {
+        let length = numbers.length;
+
+        for (let i = 0; i < length; i++) {
+            for (let j = 0; j < (length - i - 1); j++) {
+                if (numbers[j] > numbers[j + 1]) {
+                    let tmp = numbers[j];
+                    numbers[j] = numbers[j + 1];
+                    numbers[j + 1] = tmp;
                 }
             }
-
-            return numbers;
         }
 
-        let arr = [1, 6, 9, 5, 3, 4, 2, 12, 4567, 5, 34];
-        // console.log( bubbleSort(arr));
-    */
+        return numbers;
+    }
 
-    /*
+    let arr = [1, 6, 9, 5, 3, 4, 2, 12, 4567, 5, 34];
+    console.log("Bubble sort\n")
+    console.log(bubbleSort(arr));
 
-        //Question 3
-        function Person(name) {
-            this.name = name;
-        }
 
-        let teacher = new Person("Abdu");
+    //Question 3
+    function Person(name) {
+        this.name = name;
+    }
 
-        teacher.teach = function (subject) {
-            return this.name + " is now teaching " + subject;
-        }
+    let teacher = new Person("Abdu");
 
-        console.log(teacher.teach.call(teacher, "IT"));
+    teacher.teach = function (subject) {
+        return this.name + " is now teaching " + subject;
+    }
 
-        // object.create()
-        let teacher2 = Object.create(Person);
-        teacher2.name = "Abdi";
 
-        // console.log(teacher2.teach("CS"));
+    console.log("Question 3");
+    console.log(teacher.teach.call(teacher, "IT"));
 
-    */
+    // object.create()
+    // let teacher2 = Object.create(Person);
+    // teacher2.name = "Abdi";
+    //
+    // console.log(teacher2.teach("CS"));
+
+
+
 
     //Question 4
-
+console.log("Inheritance\n")
     function Person(name, age) {
         Person.prototype.name = name;
         Person.prototype.age = age;
 
         this.greeting = function () {
-            return "Greetings, my name is " + this.name + "and I am " + this.age + " years old.";
+            return "Greetings, my name is " + this.name + " and I am " + this.age + " years old.";
         }
         Person.prototype.salute = function () {
             return "Good morning!, and in case I dont see you, good afternoon, good evening and good night!";
@@ -84,7 +99,7 @@
     function Student(major) {
         this.major = major;
         this.greeting = function () {
-            return "Hey, my name is " + this.name + "  and I am studying " + this.major;
+            return "Hey, my name is " + this.name + "  and I am studying " + major;
         }
 
     }
@@ -93,7 +108,7 @@
 
         this.department = department;
         this.greeting = function () {
-            return "Good day, my name is " + this.name + "  and I am in " + this.department + " department";
+            return "Good day, my name is " + this.name + "  and I am in " + department + " department";
         }
     }
 
@@ -109,7 +124,10 @@
     console.log(prof.salute());
 
     console.log(student.greeting.call(person));
-    console.log(prof.greeting());
+    console.log(person.salute());
+
+    // console.log(person.greeting());
+    // console.log(person.salute());
 
 </script>
 
