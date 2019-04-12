@@ -20,43 +20,96 @@
 
     }
 
-    //Question 2
+    /*
 
-    function bubbleSort(numbers) {
-        let length = numbers.length;
+        //Question 2
 
-        for (let i = 0; i < length; i++) {
-            for (let j = 0; j < (length - i - 1); j++) {
-                if (numbers[j] > numbers[j + 1]) {
-                    let tmp = numbers[j];
-                    numbers[j] = numbers[j + 1];
-                    numbers[j + 1] = tmp;
+        function bubbleSort(numbers) {
+            let length = numbers.length;
+
+            for (let i = 0; i < length; i++) {
+                for (let j = 0; j < (length - i - 1); j++) {
+                    if (numbers[j] > numbers[j + 1]) {
+                        let tmp = numbers[j];
+                        numbers[j] = numbers[j + 1];
+                        numbers[j + 1] = tmp;
+                    }
                 }
             }
+
+            return numbers;
         }
 
-        return numbers;
+        let arr = [1, 6, 9, 5, 3, 4, 2, 12, 4567, 5, 34];
+        // console.log( bubbleSort(arr));
+    */
+
+    /*
+
+        //Question 3
+        function Person(name) {
+            this.name = name;
+        }
+
+        let teacher = new Person("Abdu");
+
+        teacher.teach = function (subject) {
+            return this.name + " is now teaching " + subject;
+        }
+
+        console.log(teacher.teach.call(teacher, "IT"));
+
+        // object.create()
+        let teacher2 = Object.create(Person);
+        teacher2.name = "Abdi";
+
+        // console.log(teacher2.teach("CS"));
+
+    */
+
+    //Question 4
+
+    function Person(name, age) {
+        Person.prototype.name = name;
+        Person.prototype.age = age;
+
+        this.greeting = function () {
+            return "Greetings, my name is " + this.name + "and I am " + this.age + " years old.";
+        }
+        Person.prototype.salute = function () {
+            return "Good morning!, and in case I dont see you, good afternoon, good evening and good night!";
+        }
     }
 
-    let arr = [1, 6, 9, 5, 3, 4, 2, 12, 4567, 5, 34];
-    // console.log( bubbleSort(arr));
+    function Student(major) {
+        this.major = major;
+        this.greeting = function () {
+            return "Hey, my name is " + this.name + "  and I am studying " + this.major;
+        }
 
-
-    //Question 3
-    function Person(name) {
-        this.name = name;
     }
 
-    let teacher = new Person("Abdu");
+    function Professor(department) {
 
-    teacher.teach = function (subject) {
-        return this.name + " is now teaching " + subject;
+        this.department = department;
+        this.greeting = function () {
+            return "Good day, my name is " + this.name + "  and I am in " + this.department + " department";
+        }
     }
 
-    console.log(teacher.teach.call(teacher, "IT"));
 
-    // object.create()
+    let person = new Person("Abdu", 24);
+    let student = new Student("CS");
+    let prof = new Professor("IT");
 
+    prof.__proto__.__proto__ = Person.prototype;
+    student.__proto__.__proto__ = Person.prototype;
+
+    console.log(prof.greeting.call(person));
+    console.log(prof.salute());
+
+    console.log(student.greeting.call(person));
+    console.log(prof.greeting());
 
 </script>
 
