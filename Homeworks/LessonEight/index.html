@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson 8 - JS Scope and Encapsulation</title>
+</head>
+
+<script>
+
+
+    //Question 1
+    // console.log("This house is not nice!".filter('not'));
+    // Output: "This house is nice!"
+
+    var filter = {bad: ["not"]};
+
+    function filter(string) {
+
+        //    string.filter(x=>
+
+    }
+
+    //Question 2
+
+    function bubbleSort(numbers) {
+        let length = numbers.length;
+
+        for (let i = 0; i < length; i++) {
+            for (let j = 0; j < (length - i - 1); j++) {
+                if (numbers[j] > numbers[j + 1]) {
+                    let tmp = numbers[j];
+                    numbers[j] = numbers[j + 1];
+                    numbers[j + 1] = tmp;
+                }
+            }
+        }
+
+        return numbers;
+    }
+
+    let arr = [1, 6, 9, 5, 3, 4, 2, 12, 4567, 5, 34];
+    // console.log( bubbleSort(arr));
+
+
+    //Question 3
+    function Person(name) {
+        this.name = name;
+    }
+
+    let teacher = new Person("Abdu");
+
+    teacher.teach = function (subject) {
+        return this.name + " is now teaching " + subject;
+    }
+
+    console.log(teacher.teach.call(teacher, "IT"));
+
+    // object.create()
+
+
+</script>
+
+
+<body>
+<p><strong> Right click and check it out on console</strong></p>
+</body>
+</html>
