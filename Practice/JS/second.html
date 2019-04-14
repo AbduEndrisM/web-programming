@@ -27,18 +27,38 @@
         // document.getElementById("unubtrusive").onclick = function () {
         //     alert("abbds");
         //
-        };
-    }
+        // };
+    };
 
     function swap2() {
-        alert("Abdu")
+        alert("Abdu");
     }
+
+
+    window.onload=function sleeeeeeeep() {
+        document.getElementById("sleeeeeeeep").onclick=swapSleep;
+    }
+    function swapSleep() {
+        alert("Mohammed");
+    }
+
+    function swap3() {
+       document.getElementById("unubtrusive").onclick=alertFunc;
+    }
+    function alertFunc(){
+        alert("ABDU E");
+    }
+     // window.onload = swap3;
+   //
+   // window.onload = function () {
+   //     document.getElementById("sleeeeeeeep").onclick=swap;
+   // }
 
 
 </script>
 <div>
     <img src="sleeping.jpg" id="sleep" width="200px" height="200px" alt="test"/>
-    <input type="button" value="SWAP" onclick="swap()"></div>
+    <input type="button" id="sleeeeeeeep" value="SWAP" onclick="swap()"></div>
 <div>
     <img src="coding.jpg" id="code" width="200px" height="200px" alt="test"/>
     <input id="unubtrusive" type="button" value="SWAP"></div>

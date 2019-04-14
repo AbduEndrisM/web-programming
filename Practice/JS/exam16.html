@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2016 exam </title>
+
+
+    <script>
+
+        "use strict"
+
+        function Employee(id) {
+            this.name = "Deafult";
+            this.id = id;
+            this.employer = {name: "MUM"};
+        }
+
+
+        Employee.prototype.getName = function () {
+            return this.name;
+        }
+        Employee.prototype.getEmployerName = function () {
+            return this.employer.name;
+        }
+
+
+
+        let john = new Employee("98000");
+
+    </script>
+
+
+</head>
+<body>
+<p> check from console</p>
+</body>
+</html>
