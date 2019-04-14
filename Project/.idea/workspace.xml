@@ -1,21 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b56d942d-92a0-4b08-952b-09c6ed263325" name="Default Changelist" comment="">
+    <list default="true" id="b56d942d-92a0-4b08-952b-09c6ed263325" name="Default Changelist" comment="Initial commit">
       <change afterPath="$PROJECT_DIR$/../Homeworks/LessonFive/lab5.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice/CSS/five.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice/JS/fourt.html" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Practice/JS/timeout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homeworks/LessonFive/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Homeworks/LessonFive/form.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homeworks/LessonFour/movies.css" beforeDir="false" afterPath="$PROJECT_DIR$/../Homeworks/LessonFour/movies.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Homeworks/LessonFour/tmnt.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Homeworks/LessonFour/tmnt.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Practice/CSS/quiz4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../Practice/CSS/quiz4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="119" />
     <option name="width" value="1139" />
     <option name="height" value="735" />
@@ -46,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554770948160" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -71,15 +68,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554736934597</updated>
-      <workItem from="1554736951025" duration="593000" />
+      <workItem from="1554736951025" duration="1931000" />
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1554750604837</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554750604837</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="593000" />
+    <option name="totallyTimeSpent" value="1931000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="119" y="0" width="1139" height="735" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
@@ -87,7 +92,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2493049" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20347957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -114,5 +119,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
