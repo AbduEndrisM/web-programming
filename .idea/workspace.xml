@@ -1,155 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="87d86305-9d76-4f21-801a-03cd5337145d" name="Default Changelist" comment="Lesson Eight - Home work - Prototypes, Filter bad words and Inheritance">
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="87d86305-9d76-4f21-801a-03cd5337145d" name="Default Changelist" comment="Initial commit">
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonEight/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFive/form.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFive/lab5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFive/lab5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/background.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/banner.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/bannerbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/critic.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/fresh.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/movies.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/overview.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/rbg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/responsive.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/rotten.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/rottenbig.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/tmnt.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/tmnt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/w3c-css.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/w3c-html.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonFour/w3c-xhtml.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonNine/maze.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonNine/maze.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonOne/abdu.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonOne/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonOne/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSeven/animations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSeven/ascii.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSeven/ascii.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSeven/ascii.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSeven2/animations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSeven2/ascii.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSeven2/ascii.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix/ASCIIanimationSpec.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix/decorated.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix/decoratemytext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix/decoratemytext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix/draw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix/jquery.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix2/decorated.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix2/decoratemytext.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix2/decoratemytext.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix2/decoratemytext.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix2/draw.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix2/drawing.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix2/jquery.min.js.download" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix2/myhtml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix2/output1-controls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix2/pages.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonSix2/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonThree/background.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonThree/background2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonThree/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonThree/pie.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonThree/pie.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonThree/pie_bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonThree/recipe.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonThree/silverware.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonTwo/about.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonTwo/coding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonTwo/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonTwo/sleeping.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Homeworks/LessonTwo/stylesheet.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/CSS/five.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/CSS/four.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/CSS/one.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/CSS/quiz4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/CSS/styleFour.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/CSS/styleOne.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/CSS/styleThree.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/CSS/styleTwo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/CSS/three.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/CSS/two.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/JavaScript.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/bindapply.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/callbindapply.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/coding.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/domelements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/exam16.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/first.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/functionalprogramming.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/inheritane.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/one.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/oop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/oop2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/second.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/sleeping.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/third.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/timeout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/JS/timer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/jQuery/formvalidation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/jQuery/jQuery.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/jQuery/jQueryform.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/jQuery/jquery-3.4.0.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Practice/jQuery/signupform.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/.htaccess" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/CHANGELOG.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/CONTRIBUTING.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/Homework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LICENSE.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonEight/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFive/form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFive/lab5.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFive/lab5.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/background.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/banner.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/bannerbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/critic.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/fresh.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/movies.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/overview.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/rbg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/responsive.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/rotten.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/rottenbig.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/tmnt.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/tmnt.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/w3c-css.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/w3c-html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonFour/w3c-xhtml.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonNine/maze.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonNine/maze.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonOne/abdu.JPG" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonOne/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonOne/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSeven/animations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSeven/ascii.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSeven/ascii.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSeven/ascii.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSeven2/animations.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSeven2/ascii.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSeven2/ascii.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix/decorated.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix/decoratemytext.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix/decoratemytext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix/draw.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix/jquery.min.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix2/decorated.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix2/decoratemytext.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix2/decoratemytext.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix2/decoratemytext.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix2/draw.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix2/drawing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix2/jquery.min.js.download" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix2/myhtml.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix2/pages.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonSix2/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonThree/background.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonThree/background2.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonThree/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonThree/pie.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonThree/pie.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonThree/pie_bullet.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonThree/recipe.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonThree/silverware.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonTwo/about.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonTwo/coding.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonTwo/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonTwo/sleeping.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/LessonTwo/stylesheet.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/apple-touch-icon-precomposed.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/crossdomain.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/css/normalize.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/doc/TOC.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/doc/crossdomain.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/doc/css.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/doc/extend.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/doc/faq.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/doc/html.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/doc/js.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/doc/misc.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/doc/usage.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/humans.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/img/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/js-check.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/js/plugins.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/js/vendor/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/js/vendor/modernizr-2.6.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/robots.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/w3c-css.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/w3c-html.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Homeworks/w3c-xhtml.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/CSS/five.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/CSS/four.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/CSS/one.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/CSS/quiz4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/CSS/styleFour.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/CSS/styleOne.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/CSS/styleThree.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/CSS/styleTwo.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/CSS/three.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/CSS/two.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/JavaScript.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/bindapply.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/callbindapply.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/coding.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/domelements.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/exam16.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/first.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/functionalprogramming.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/inheritane.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/one.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/oop.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/oop2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/second.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/sleeping.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/third.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/timeout.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/JS/timer.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/Practice.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/jQuery/formvalidation.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/jQuery/jQuery.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/jQuery/jQueryform.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Practice/jQuery/signupform.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Project.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -159,7 +108,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Practice/CSS/five.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -255,7 +214,22 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LessonOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebProgramming" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LessonOne" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebProgramming" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -264,7 +238,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555285310528" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555286167249" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -321,35 +295,7 @@
       <option name="presentableId" value="Default" />
       <updated>1554149141603</updated>
       <workItem from="1554149149139" duration="142777000" />
-      <workItem from="1555281139705" duration="862000" />
-    </task>
-    <task id="LOCAL-00014" summary="Lesson Two - Home work - HTML and CSS">
-      <created>1554245107365</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1554245107365</updated>
-    </task>
-    <task id="LOCAL-00015" summary="Lesson Two - Home work - HTML and CSS II">
-      <created>1554307563409</created>
-      <option name="number" value="00015" />
-      <option name="presentableId" value="LOCAL-00015" />
-      <option name="project" value="LOCAL" />
-      <updated>1554307563409</updated>
-    </task>
-    <task id="LOCAL-00016" summary="Lesson Three - Home work - HTML and CSS II">
-      <created>1554307779189</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1554307779189</updated>
-    </task>
-    <task id="LOCAL-00017" summary="Lesson Three - Home work - HTML and CSS II">
-      <created>1554307877647</created>
-      <option name="number" value="00017" />
-      <option name="presentableId" value="LOCAL-00017" />
-      <option name="project" value="LOCAL" />
-      <updated>1554307877647</updated>
+      <workItem from="1555281139705" duration="1796000" />
     </task>
     <task id="LOCAL-00018" summary="Lesson One - Home work - Validator error resolved">
       <created>1554308069148</created>
@@ -666,16 +612,44 @@
       <option name="project" value="LOCAL" />
       <updated>1555057017723</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="First commit">
+      <created>1555285386352</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1555285386354</updated>
+    </task>
+    <task id="LOCAL-00064" summary="Initial commit">
+      <created>1555285596874</created>
+      <option name="number" value="00064" />
+      <option name="presentableId" value="LOCAL-00064" />
+      <option name="project" value="LOCAL" />
+      <updated>1555285596874</updated>
+    </task>
+    <task id="LOCAL-00065" summary="Initial commit">
+      <created>1555285767137</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1555285767138</updated>
+    </task>
+    <task id="LOCAL-00066" summary="Initial commit">
+      <created>1555286034110</created>
+      <option name="number" value="00066" />
+      <option name="presentableId" value="LOCAL-00066" />
+      <option name="project" value="LOCAL" />
+      <updated>1555286034110</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143639000" />
+    <option name="totallyTimeSpent" value="144573000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3804841" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2510981" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -690,10 +664,10 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.8527005" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.8515008" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.23076923" />
-      <window_info active="true" anchor="bottom" id="Event Log" order="11" side_tool="true" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -750,8 +724,33 @@
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Lesson One - Home work" />
     <MESSAGE value="Merge remote-tracking branch 'origin/master'&#10;&#10;# Conflicts:&#10;#&#9;Homeworks/LessonOne/index.html" />
     <MESSAGE value="Lesson Two - Home work - HTML-CSS" />
     <MESSAGE value="Lesson Two- Home work - Html, CSS" />
@@ -768,7 +767,6 @@
     <MESSAGE value="Lesson Five - Home work - a simple html form" />
     <MESSAGE value="Lesson Five - Home work - JavaScript - basic to advanced" />
     <MESSAGE value="Lesson Five - Home work - JavaScript - basic to advanced and Unit test cases" />
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Lesson Six - Home work - playing with pages and drawing using JS" />
     <MESSAGE value="Lesson Six - Home work - playing with pages" />
     <MESSAGE value="Lesson Seven - Home work - ASCII Animation" />
@@ -776,7 +774,9 @@
     <MESSAGE value="Lesson Eight - Home work - Prototypes, Encapsulation and Inheritance" />
     <MESSAGE value="Lesson Six - Home work - Decorate a page with drawing" />
     <MESSAGE value="Lesson Eight - Home work - Prototypes, Filter bad words and Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Lesson Eight - Home work - Prototypes, Filter bad words and Inheritance" />
+    <MESSAGE value="First commit" />
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LessonTwo/stylesheet.css" />
@@ -841,6 +841,13 @@
     <entry file="file://$PROJECT_DIR$/LessonFour/styles.css" />
     <entry file="file://$PROJECT_DIR$/LessonFive/form.html" />
     <entry file="file://$PROJECT_DIR$/LessonEight/index.html" />
+    <entry file="file://$PROJECT_DIR$/src/Practice/CSS/five.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
