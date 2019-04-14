@@ -35,7 +35,12 @@
         </style>
 
         <script>
-        onclick{
+        function onclick{
+
+            var task=document.getElementById("task").value;
+            var date=document.getElementById("date").value;
+            var catagery=document.getElementById("cat").value;
+
 
         }
         </script>
@@ -45,19 +50,19 @@
 
     <form action="#" method="POST">
 <div class="div">
-    <label> Task</label> <br><input type="text" placeholder="task">
+    <label> Task</label> <br><input type="text" placeholder="task" name="task">
 </div>
 
         <div class="div">
-            <label> Required by: </label> <br><input type="date"  >
+            <label> Required by: </label> <br><input type="date" name="date" >
         </div>
 
         <div class="div">
         <label>Category</label> <br>
 
-        <select >
+        <select name="cat">
             <option>Personal</option>
-            <option>Work</option>
+            <option selected>Work</option>
 
         </select>
 
