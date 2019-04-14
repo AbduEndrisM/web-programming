@@ -61,7 +61,7 @@
 
     //Question 3
     function Person(name) {
-        this.name = name;
+        this.prototype.name = name;
     }
 
     let teacher = new Person("Abdu");
@@ -74,6 +74,7 @@
     console.log("Question 3");
     console.log(teacher.teach.call(teacher, "IT"));
 
+
     // object.create()
     // let teacher2 = Object.create(Person);
     // teacher2.name = "Abdi";
@@ -84,11 +85,11 @@
 
 
     //Question 4
-console.log("Inheritance\n")
+    console.log("Inheritance\n")
+
     function Person(name, age) {
         Person.prototype.name = name;
         Person.prototype.age = age;
-
         this.greeting = function () {
             return "Greetings, my name is " + this.name + " and I am " + this.age + " years old.";
         }
@@ -125,7 +126,7 @@ console.log("Inheritance\n")
     console.log(prof.salute());
 
     console.log(student.greeting.call(person));
-    console.log(person.salute());
+    console.log(student.salute());
 
     // console.log(person.greeting());
     // console.log(person.salute());
