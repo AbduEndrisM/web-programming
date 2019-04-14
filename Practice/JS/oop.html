@@ -89,12 +89,11 @@
         //4.3 this referes to an empty object when the function created using the new keyword
 
         function func43() {
-         //   console.log("Abdu");
-       //     console.log(this);  // empty object = _proto_
+            //   console.log("Abdu");
+            //     console.log(this);  // empty object = _proto_
         }
 
         new func43();
-
 
 
         // #4 using call
@@ -107,28 +106,54 @@
             this.gear = gear;
             this.tirePressure = tirePressure;
             this.inflateTires = function () {
-                this.tirePressure = this.tirePressure+5;
+                this.tirePressure = this.tirePressure + 5;
             }
         }
 
-         let bicycle1 = new Bicycle(40, 20, 4, 25);
-         let bicycle2 = new Bicycle(40, 20, 5, 29);
-
+        let bicycle1 = new Bicycle(40, 20, 4, 25);
+        let bicycle2 = new Bicycle(40, 20, 5, 29);
 
 
         // A person who is gonna inflate the tire
         function Mechanic(name) {
             this.name = name;
         }
+
         // Mike is gonna inflate bike 1
         let mike = new Mechanic("Abdu");
-         //mike.inflateTires =bicycle1.inflateTires; //this couldn't inflate bike 1 because this.inflattires of Bicycle is
-                                                    // mike's tirePressure which is undefined;
+        //mike.inflateTires =bicycle1.inflateTires; //this couldn't inflate bike 1 because this.inflattires of Bicycle is
+        // mike's tirePressure which is undefined;
         //so we shoud use call binding
 
         mike.pump = bicycle1.inflateTires;   // no tirepressure property of mike = undefined
         //run from console mike.pump.call(bicycle1);
 
+
+        // THIS keyword
+        function sam() {
+            // "use strict";
+            this.newvar = "hello";
+        }
+        // console.log(newvar); // Uncaught ReferenceError: newvar is not defined
+        sam(); // this = window  so, window.newvar = "hello"
+        // console.log(newvar); //hello
+
+
+
+        // "use strict";
+        function aa() {
+            console.log(this);
+        }
+        const bb = {
+            log: function() {
+                console.log(this);
+            }
+        }
+        console.log(this); // this generally is window object
+        aa(); // aa() is called by global window object in non-strict mode
+        bb.log(); // log() is called by an object method log of bb
+        let myLog = bb.log;  // moving out from object level to global function level and then call it using () become o global scope
+        myLog();    // /mylog() is called by global window object in non-strict mode , it's not object level... we moved out from the global by assigning to  another variable.
 
 
     </script>
