@@ -1,0 +1,60 @@
+
+body{
+    background-color: #b3d4fc;
+    font-family: "Helvetica Neue", Cambria,   sans-serif;
+}
+.header{
+text-align: left;
+}
+.name-two{
+    -moz-transform:rotate(180deg); /* Firefox */
+    -webkit-transform:rotate(180deg); /* Webkit */
+    -ms-transform:rotate(180deg); /* IE */
+    -o-transform:rotate(180deg); /* Opera */
+    transform:rotate(180deg); /* future */
+    position: absolute;
+
+}
+
+h4{
+    font-family: "Times New Roman", Cambria, sans-serif;
+    color: #105cb6;
+
+}
+.header-paragraph{
+    width: 80%;
+    align-content: center;
+    margin-left: 50px;
+}
+.right{
+    width: 200px;
+}
+.title{
+    color:darkgreen;
+
+    margin-left: 200px;
+    width: 300px;
+
+}
+.moodes img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.movies a {
+    text-decoration: none;
+    color: red;
+
+}
+.movies ol li ul li ul {
+    color: navy;
+
+}
+.movies ol li ul {
+    color: purple;
+
+}
+.movies ol li ul {
+    list-style-type: none;
+}
