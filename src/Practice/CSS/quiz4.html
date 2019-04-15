@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!--5 minutes quiz-->
+<!--what is the out put of this code-->
+
+<!--First question take a note on
+    1.span
+    2. position
+
+    Second question - Answer is 30
+    1. boxing - collapse concept
+    2. border box vs default
+    -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
+        div{
+            border: 1px red solid;
+        }
+        #div1{
+            position: absolute;
+            left:0px;
+            top: 0px;
+        }
+        span{
+            border: 1px dashed black;
+        }
+
+
+         #one{
+             width: 200px;
+             padding: 10px;
+             border: 5px ;
+         }
+        #two{
+            width: 200px;
+            padding: 10px 5px 8px 10px;
+            border: 5px solid red;
+            margin: 30px 10px 15px 5px;
+            box-sizing: border-box;
+
+        }
+    </style>
+</head>
+<body>
+<div>A
+<div> B</div>
+    <span>C</span>
+    <div id="div1"> D</div>
+</div>
+
+<br>
+<br>
+
+<div id="one">
+    Lorem ipsum dolor sit.
+</div >
+<div id="two"> Lorem ipsum dolor sit.</div>
+</body>
+</html>
