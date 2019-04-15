@@ -1,0 +1,122 @@
+
+
+.container{
+    width: 400px;
+    height: 300px;
+    background-color: lightslategray;
+    margin: 30px;
+    overflow: hidden;
+    float: left;
+}
+
+
+.x{
+    width: 60px;
+    height: 50px;
+    float: left;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+#y{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    background-color: aquamarine;
+}
+
+#z{
+    padding: 10px;
+    margin: 5px;
+    overflow: visible;
+    margin-left: 200px;
+    text-align: justify;
+}
+
+
+#yy{
+
+    text-align: center;
+    font-size: 40px;
+    width: 70px;
+    height: 50px;
+    /*float: right ;*/
+    /*clear: left;*/
+    background-color: aquamarine;
+}
+#zz{
+    float: left;
+    clear: left;
+}
+#yyy{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    width: 60px;
+    height: 50px;
+    float: left;
+    background-color: aquamarine;
+
+}
+#zzz{
+
+    padding: 10px;
+    margin: 5px;
+    clear: left;
+    overflow: visible;
+}
+#abcd{
+    /*padding: 20px;*/
+
+    width: 60px;
+    height: 50px;
+    clear: left;
+
+}
+
+/*
+.a{
+    width: 70px;
+    height: 50px;
+    float: left;
+    background-color: blueviolet;
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+#b{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    width: 70px;
+    height: 50px;
+    float: right;
+    background-color: aquamarine;
+}
+#c{
+    padding: 10px;
+    margin: 5px;
+    overflow: visible;
+}
+
+
+.bb{
+    padding: 20px;
+    text-align: center;
+    font-size: 40px;
+    width: 70px;
+    height: 50px;
+    float: right ;
+    clear: left;
+    background-color: aquamarine;
+}
+#ccc{
+    padding: 10px;
+    margin: 5px;
+    clear: left;
+    overflow: visible;
+}*/
