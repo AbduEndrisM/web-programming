@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wonows onload</title>
+    <script>
+
+        // Change color of the clicked element
+
+        //The first will be overridden by the second winodw.onload
+        window.onload = function () {
+            document.getElementById("ok1").onclick = change;
+            document.getElementById("ok2").onclick = change;
+            document.getElementById("ok3").onclick = change;
+
+        }
+
+        function change() {
+            document.getElementById(this.id).style.color = "red";
+        }
+
+        window.onload = function () {
+            document.getElementById("ok1").onclick = change2;
+            document.getElementById("ok2").onclick = change2;
+            document.getElementById("ok3").onclick = change2;
+        }
+
+        function change2() {
+            let x = document.getElementById(this.id);
+            switch (x) {
+                case ok1:
+                    x.style.color = "green";
+                    x.style.fontSize = "23px";
+                    break;
+                case ok2:
+                    x.style.color = "yellow";
+                    x.style.fontSize = "23px";
+                    break;
+                case ok3:
+                    x.style.color = "red";
+                    x.style.fontSize = "33px";
+                    x.style.fontWeight = "bold";
+                    break;
+
+            }
+        }
+
+
+        window.onload = function () {
+            document.getElementById("ok1").onclick = change3;
+            document.getElementById("ok2").onclick = change3;
+            document.getElementById("ok3").onclick = change3;
+        }
+
+        function change3() {
+            let x = document.getElementById(this.id);
+            switch (x) {
+                case ok1:
+
+                    x.className = "highlight1";
+                    break;
+                case ok2:
+                    x.className = "highlight2"
+                    break;
+                case ok3:
+                    x.id = "highlight3"
+                    break;
+
+            }
+        }
+
+        // window.onload = function () {
+        //     document.getElementById("ok1").onclick = change4(24);
+        //     document.getElementById("ok2").onclick = change4(34);
+        //     document.getElementById("ok3").onclick = change4(44);
+        // }
+        //
+        //
+        // function change4(size) {
+        //     return function () {
+        //         this.className.style.fontSize=size+"px";
+        //         // document.getElementById("ok1").resize(24);
+        //         // document.getElementById("ok2").resize(34);
+        //
+        //     };
+        //     }
+    </script>
+
+    <style>
+        .highlight1 {
+            font-size: 23px;
+            color: green;
+        }
+
+        .highlight2 {
+            font-size: 33px;
+            color: yellow;
+        }
+
+        #highlight3 {
+            font-size: 43px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<button id="ok1">OK1</button>
+<button id="ok2">OK2</button>
+<button id="ok3">OK3</button>
+
+
+</body>
+</html>
