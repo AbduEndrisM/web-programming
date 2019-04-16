@@ -32,4 +32,4 @@ Forward or redirect servlets and JSPs as appropriate. (state lesson)
  Use EL, JSP actions and custom tags including JSTL (JSP and JSP tags lessons) as part of an
 MVC web architecture.
  Use Ajax calls to contact a servlet/JSP back end, especially as part of single page web
-applications. Clearly understand the different purposes of browser versus server-side code
+applications. Clearly understand the different purposes of browser versus server-side code 
