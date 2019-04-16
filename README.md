@@ -1,6 +1,5 @@
 # WebProgramming
 Web Application Programming
-Unity and Diversity
 CS472
 April 2019
 
