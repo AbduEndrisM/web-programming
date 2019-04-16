@@ -11,6 +11,18 @@
     <title>Title</title>
 </head>
 <body>
+
+<form action="calculator" method="get">
+    <div class="space">
+        <input type="text" name="num1"> +
+        <input type="text" name="num2">
+    </div>
+    <div>
+        <input type="text" name="num3"> +
+        <input type="text" name="num4">
+    </div>
+    <input type="submit" value="Submit"/>
+</form>
 <h2> Hello World!</h2>
 </body>
 </html>
