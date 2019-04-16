@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function Foo(y) {
+            this.y = y;
+        }
+
+        Foo.prototype.x = 10;
+        Foo.prototype.calculate = function (z) {
+            return this.x + this.y;
+        }
+
+        var b = new Foo(20);
+        var c = new Foo(30);
+
+        b.calculate(30);
+        c.calculate(40);
+
+
+        function Emp(name) {
+            this.name = name;
+        };
+        Emp.prototype.getName = function () {
+            return this.name;
+        };
+
+        function Mgr(salary) {
+            this.salary = salary;
+        };
+        var emp = new Emp("Kamal");
+
+        Mgr.prototype = emp;
+        var mgr = new Mgr(50000);
+        // document.write(mgr.getName() + " is getting $ " + mgr.salary)
+        document.write(mgr.getName.call(emp) + " is getting $ " + mgr.salary)
+
+    </script>
+
+</head>
+<body>
+
+</body>
+</html>
