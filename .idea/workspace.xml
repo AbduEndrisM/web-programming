@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ebeea1ca-a2cc-498d-9db1-757cb1ee4444" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Servlet/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Servlet/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/Servlet.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Servlet/pom.xml" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Homework/LessonOne/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="340">
+              <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Homework/LessonFive/form.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1387" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Homework/LessonFive/lab5.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>hig</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Homework/LessonOne/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-7" />
+    <option name="width" value="697" />
+    <option name="height" value="371" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="WebProgramming" type="b2602c69:ProjectViewProjectNode" />
+              <item name="WebProgramming" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555391138238" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ebeea1ca-a2cc-498d-9db1-757cb1ee4444" name="Default Changelist" comment="" />
+      <created>1555384652833</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1555384652833</updated>
+      <workItem from="1555384657326" duration="4495000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1555384707050</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555384707051</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Web Programming - Maven Project">
+      <created>1555384815975</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555384815975</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Lesson Eight - Home work - JavaScript : Prototype - Filter - Bubble sort - Filter bad words">
+      <created>1555384943383</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555384943383</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Lesson Five - Home work - JavaScript : Basics to advanced - unit testing">
+      <created>1555384993494</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555384993494</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Lesson Four - Home work - HTML and CSS : Responsive web page using grid">
+      <created>1555385037967</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385037968</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Lesson Nine - Home work - HTML, CSS and JS  : a simple animation game - Maze">
+      <created>1555385088520</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385088520</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Lesson One - Home work - HTML : Basics">
+      <created>1555385117739</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385117739</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Lesson Seven - Home work - HTML, CSS and JS  : a simple animation game - ASCII">
+      <created>1555385169543</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385169543</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Lesson Six - Home work - JavaScript   :  Basics of JavaScript environment">
+      <created>1555385289472</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385289472</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Lesson Three - Home work - HTML and CSS   :  Basics of HTML and CSS">
+      <created>1555385320833</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385320833</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Lesson Two - Home work - HTML and CSS   :  Basics of HTML and CSS I">
+      <created>1555385347979</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385347979</updated>
+    </task>
+    <task id="LOCAL-00012" summary="CSS - Practice - Playing with CSS">
+      <created>1555385498930</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385498930</updated>
+    </task>
+    <task id="LOCAL-00013" summary="CSS - Practice - Playing with CSS : Menu">
+      <created>1555385541110</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385541110</updated>
+    </task>
+    <task id="LOCAL-00014" summary="CSS - Practice - Playing with CSS : Box">
+      <created>1555385566346</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385566346</updated>
+    </task>
+    <task id="LOCAL-00015" summary="CSS - Practice - Playing with CSS : Layout">
+      <created>1555385583745</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385583745</updated>
+    </task>
+    <task id="LOCAL-00016" summary="jQuery - Practice - Signup form">
+      <created>1555385886891</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385886891</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Initial commit">
+      <created>1555385934103</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385934103</updated>
+    </task>
+    <task id="LOCAL-00018" summary="jQuery - Practice -  form validation">
+      <created>1555385961798</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385961798</updated>
+    </task>
+    <task id="LOCAL-00019" summary="jQuery - Practice -  form validation">
+      <created>1555385971804</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1555385971804</updated>
+    </task>
+    <task id="LOCAL-00020" summary="JavaScript - Vanilla JS - Call, Bind and Apply">
+      <created>1555386075569</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1555386075569</updated>
+    </task>
+    <task id="LOCAL-00021" summary="JavaScript - Vanilla JS - DOM elements">
+      <created>1555386096876</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1555386096876</updated>
+    </task>
+    <task id="LOCAL-00022" summary="JavaScript - Vanilla JS - Higher Order Functions : Map, Filter, Reduce, Sum, Sort ...">
+      <created>1555386166856</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1555386166856</updated>
+    </task>
+    <task id="LOCAL-00023" summary="JavaScript - Vanilla JS - Asynchronous calls: timer">
+      <created>1555386218046</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1555386218046</updated>
+    </task>
+    <task id="LOCAL-00024" summary="JavaScript - Vanilla JS - Object Oriented Programming">
+      <created>1555386258375</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1555386258375</updated>
+    </task>
+    <task id="LOCAL-00025" summary="JavaScript - Vanilla JS - Higher Order Functions : Map, Filter, Reduce, Sum, Sort ...">
+      <created>1555386312673</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1555386312673</updated>
+    </task>
+    <task id="LOCAL-00026" summary="JavaScript - Vanilla JS - onclick(): swap pictures">
+      <created>1555386342976</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1555386342976</updated>
+    </task>
+    <task id="LOCAL-00027" summary="JavaScript - Vanilla JS - Object Oriented Programming">
+      <created>1555386386819</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1555386386819</updated>
+    </task>
+    <task id="LOCAL-00028" summary="JavaScript - Vanilla JS - Basics">
+      <created>1555386409700</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1555386409700</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Lesson One - Home work - HTML : Contents">
+      <created>1555387106359</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1555387106359</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Lesson One - Home work - HTML : Contents updated">
+      <created>1555387497430</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1555387497430</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4495000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Lesson Eight - Home work - JavaScript : Prototype - Filter - Bubble sort - Filter bad words" />
+    <MESSAGE value="Lesson Five - Home work - JavaScript : Basics to advanced - unit testing" />
+    <MESSAGE value="Lesson Four - Home work - HTML and CSS : Responsive web page using grid" />
+    <MESSAGE value="Lesson Nine - Home work - HTML, CSS and JS  : a simple animation game - Maze" />
+    <MESSAGE value="Lesson One - Home work - HTML : Basics" />
+    <MESSAGE value="Lesson Seven - Home work - HTML, CSS and JS  : a simple animation game - ASCII" />
+    <MESSAGE value="Lesson Six - Home work - JavaScript   :  Basics of JavaScript environment" />
+    <MESSAGE value="Lesson Three - Home work - HTML and CSS   :  Basics of HTML and CSS" />
+    <MESSAGE value="Lesson Two - Home work - HTML and CSS   :  Basics of HTML and CSS I" />
+    <MESSAGE value="CSS - Practice - Playing with CSS" />
+    <MESSAGE value="CSS - Practice - Playing with CSS : Menu" />
+    <MESSAGE value="CSS - Practice - Playing with CSS : Box" />
+    <MESSAGE value="CSS - Practice - Playing with CSS : Layout" />
+    <MESSAGE value="jQuery - Practice - Signup form" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="jQuery - Practice -  form validation" />
+    <MESSAGE value="JavaScript - Vanilla JS - Call, Bind and Apply" />
+    <MESSAGE value="JavaScript - Vanilla JS - DOM elements" />
+    <MESSAGE value="JavaScript - Vanilla JS - Asynchronous calls: timer" />
+    <MESSAGE value="JavaScript - Vanilla JS - Higher Order Functions : Map, Filter, Reduce, Sum, Sort ..." />
+    <MESSAGE value="JavaScript - Vanilla JS - onclick(): swap pictures" />
+    <MESSAGE value="JavaScript - Vanilla JS - Object Oriented Programming" />
+    <MESSAGE value="JavaScript - Vanilla JS - Basics" />
+    <MESSAGE value="Lesson One - Home work - HTML : Contents" />
+    <MESSAGE value="Lesson One - Home work - HTML : Contents updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Lesson One - Home work - HTML : Contents updated" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Practice/CSS/five.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practice/JS/functionalprogramming.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="167" column="8" selection-start-line="167" selection-start-column="5" selection-end-line="167" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practice/JS/third.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practice/JS/second.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practice/JS/JavaScript.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practice/JS/first.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Practice/JS/exam16.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="12" lean-forward="true" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/LessonEight/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/LessonFive/form.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1387" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/LessonFive/lab5.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="27" selection-end-line="76" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Homework/LessonOne/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="28" column="45" selection-start-line="28" selection-start-column="45" selection-end-line="28" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
