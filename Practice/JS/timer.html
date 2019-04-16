@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Time Events JS</title>
+    <!--<script type="javascript" src="timeout.js"/>-->
+
+
+    <script>
+
+
+        var timer = null;
+
+        /*    window.onload = function () {
+                document.getElementById("clickbtn").onclick = func;
+            }
+
+            function func() {
+                document.getElementById("output").innerText = " Please wait...";
+                timer = setTimeout(rudy, 3000, 4, 5);
+            }
+
+            function rudy(a,b ) {
+                document.getElementById("output").innerText = a*b;
+            }
+    */
+
+     /*   window.onload = function () {
+            document.getElementById("clickbtn").onclick = xxxx;
+        }
+
+        function xxxx() {
+
+            if (timer = null) {
+                timer = setInterval(booyah, 1000);
+            } else {
+                clearInterval(timer);
+                timer = null;
+            }
+        }
+
+
+        function booyah() {
+            // called when the timer goes off
+            document.getElementById("output").innerHTML = "BOOYAH!";
+        }
+*/
+
+        //OR
+        /*
+
+                    window.onload = document.getElementById("clickbtn").onclick = function () {
+
+                       if (timer ==null) {
+                           timer = setInterval(function () {
+                               document.getElementById("output").innerText = "BOOYAH!";
+                           },1000);
+                       } else {
+                           clearInterval(timer);
+                       }
+                   }
+        */
+/*
+      window.onload = function () {
+            document.getElementById("clickbtn").onclick=multiplay;
+        }
+        function multiplay() {
+            setTimeout(mult, 2000, 5,5);
+        }
+        function mult(a,b ) {
+            document.getElementById("output").innerText=a*b;
+        }
+*/
+
+        window.onload = function () {
+            document.getElementById("clickbtn").onclick=multiplay;
+        }
+
+
+        let counter = 0;
+        function multiplay() {
+        if(timer==null) {
+            timer = setInterval(mult, 1000,2,3);
+        }
+        else{
+            clearInterval();
+            timer=null;
+        }
+        }
+        function mult(a,b ) {
+            if (counter == 5) {
+                clearInterval(timer);
+            } else {
+                document.getElementById("output").innerText += a * b;
+                counter++;
+                //  alert(a*b);
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+<button id="clickbtn">Click me!</button>
+<span id="output"></span>
+</body>
+</html>
