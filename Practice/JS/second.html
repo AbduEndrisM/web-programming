@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function swap() {
+
+        let x = document.getElementById("sleep");
+        let currentImg = x.src;
+
+        let isSleeping = currentImg.indexOf("sleep");
+
+        // document.writeln(isSleeping);
+        if (isSleeping > -1)
+            x.src = "coding.jpg";
+        else
+            x.src = "sleeping.jpg";
+
+
+    }
+
+    window.onload = function () {
+        document.getElementById("unubtrusive").onclick = swap2;
+        // document.getElementById("unubtrusive").onclick = function () {
+        //     alert("abbds");
+        //
+        // };
+    };
+
+    function swap2() {
+        alert("Abdu");
+    }
+
+
+    window.onload=function sleeeeeeeep() {
+        document.getElementById("sleeeeeeeep").onclick=swapSleep;
+    }
+    function swapSleep() {
+        alert("Mohammed");
+    }
+
+    function swap3() {
+       document.getElementById("unubtrusive").onclick=alertFunc;
+    }
+    function alertFunc(){
+        alert("ABDU E");
+    }
+     // window.onload = swap3;
+   //
+   // window.onload = function () {
+   //     document.getElementById("sleeeeeeeep").onclick=swap;
+   // }
+
+
+</script>
+<div>
+    <img src="sleeping.jpg" id="sleep" width="200px" height="200px" alt="test"/>
+    <input type="button" id="sleeeeeeeep" value="SWAP" onclick="swap()"></div>
+<div>
+    <img src="coding.jpg" id="code" width="200px" height="200px" alt="test"/>
+    <input id="unubtrusive" type="button" value="SWAP"></div>
+</body>
+</html>
