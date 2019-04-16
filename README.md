@@ -22,6 +22,7 @@ At the completion of the course you will be proficient in designing and writing 
  Servlets and Java Server Pages for creating dynamism in websites.
 
 
+
 Client-Side Course Objectives
 
  Design and write web pages including proper separation of content in HTML, styling in CSS, and processing in JavaScript.
@@ -34,7 +35,10 @@ Client-Side Course Objectives
 
  Understand JavaScript scope, execution context, scope chain, and event loop.
 
- Use jQuery to select, modify, create DOM elements, and handle events Server-Side Course Objectives
+ Use jQuery to select, modify, create DOM elements, and handle events 
+
+
+Server-Side Course Objectives
 
  Design and develop web applications with a deep understanding of containers and concurrency.
 
