@@ -11,15 +11,31 @@ import java.io.PrintWriter;
 
 //@WebServlet("/calculatorTwo")
 public class CalculatorServletTwo extends HttpServlet {
-    public void doPost(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
+    public void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException, ServletException {
 
-        double a = Double.parseDouble(req.getParameter("num1"));
-        double b = Double.parseDouble(req.getParameter("num2"));
-        double c = Double.parseDouble(req.getParameter("num3"));
-        double d = Double.parseDouble(req.getParameter("num4"));
+        PrintWriter out = res.getWriter();
+        try {
+            res.setContentType("text/html");
 
-        req.setAttribute(Double.toString(a+b), "result1");
-        req.setAttribute(Double.toString(c*d), "result2");
+            String num1 = req.getParameter("num1");
+            String num2 = req.getParameter("num2");
+            String num3 = req.getParameter("num3");
+            String num4 = req.getParameter("num4");
 
+
+            if (!("".equals(num1)) && ("".equals(num2))) {
+                int sum = Integer.parseInt(num1) + Integer.parseInt(num2);
+//                out.println(num1 + " + " + num2 + " = " + Integer.parseInt(num1) + Integer.parseInt(num2));
+                out.println("  <input name=\"num1\" value=" + num1 + "> " + " <input name=\"num1\" value=" + num2 + "> +   <input type=\"text\" name=\"result1\" readonly value=" + sum + " >");
+            }
+
+            if (!("".equals(num3)) && ("".equals(num4))) {
+                out.println(num3 + " + " + num4 + " = " + Integer.parseInt(num3) + Integer.parseInt(num4));
+            }
+
+
+        } catch (Exception e) {
+            out.println("Something is going wrong ...");
+        }
     }
 }
