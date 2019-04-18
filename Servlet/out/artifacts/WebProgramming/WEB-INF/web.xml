@@ -22,4 +22,15 @@
         <servlet-name>calctwo</servlet-name>
         <url-pattern>/calculatorTwo</url-pattern>
     </servlet-mapping>
+
+
+
+    <servlet>
+        <servlet-name>helloworld</servlet-name>
+        <servlet-class>com.servlets.HelloServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>helloworld</servlet-name>
+        <url-pattern>/HelloServlet</url-pattern>
+    </servlet-mapping>
 </web-app>
