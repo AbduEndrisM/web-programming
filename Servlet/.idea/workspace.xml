@@ -8,11 +8,16 @@
   <component name="ChangeListManager">
     <list default="true" id="2a90abea-4ee3-4991-baad-4de4628ed1a5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/WebProgramming/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebProgramming/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebProgramming/WEB-INF/classes/com/servlets/CalculatorServletOne.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebProgramming/WEB-INF/classes/com/servlets/CalculatorServletOne.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebProgramming/WEB-INF/classes/com/servlets/CalculatorServletTwo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebProgramming/WEB-INF/classes/com/servlets/CalculatorServletTwo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebProgramming/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebProgramming/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebProgramming/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/WebProgramming/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/WebProgramming/index.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletOne.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletOne.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletTwo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletTwo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,8 +31,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="349">
-              <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+            <state relative-caret-position="112">
+              <caret line="18" column="56" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="56" />
             </state>
           </provider>
         </entry>
@@ -35,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletOne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="251">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+            <state relative-caret-position="370">
+              <caret line="49" lean-forward="true" selection-start-line="12" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -45,19 +50,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletTwo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" selection-start-line="35" selection-end-line="35" />
+            <state relative-caret-position="228">
+              <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -66,10 +62,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/servlets/HelloServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+            <state relative-caret-position="136">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/labone.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="130">
+              <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
               <folding>
                 <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
               </folding>
@@ -97,14 +105,18 @@
         <option value="$PROJECT_DIR$/src/main/java/LessonOne/home.html" />
         <option value="$PROJECT_DIR$/src/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/home.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/servlets/Calc.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServlet.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletTwo.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/LessonOne/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/LessonOne/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/servlets/HelloServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/labone.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletOne.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletTwo.java" />
       </list>
     </option>
   </component>
@@ -166,7 +178,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
@@ -174,6 +195,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Servlet" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -188,22 +217,22 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555462166201" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555555709412" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/LessonOne" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\MUM Projects\WebProgramming\Servlet\src\main\java\com" />
-      <recent name="E:\MUM Projects\WebProgramming\Servlet\src" />
-      <recent name="E:\MUM Projects\WebProgramming\Servlet\" />
-      <recent name="E:\MUM Projects\WebProgramming\Servlet\src\" />
-      <recent name="E:\MUM Projects\WebProgramming\Servlet\src\main" />
+      <recent name="E:\MUM Projects\WebProgramming\Servlet\src\main\resources" />
+      <recent name="E:\MUM Projects\WebProgramming\Servlet\src\main\java\com\resources" />
+      <recent name="E:\MUM Projects\WebProgramming\Servlet\src\main\webapp" />
+      <recent name="E:\MUM Projects\WebProgramming\Servlet\src\main\webapp\LessonOne" />
+      <recent name="E:\MUM Projects\WebProgramming\Servlet\src\main\webapp\WEB-INF" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\MUM Projects\WebProgramming\Servlet\src\webapp\WEB-INF" />
@@ -308,7 +337,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555392049411</updated>
-      <workItem from="1555392058827" duration="17906000" />
+      <workItem from="1555392058827" duration="30083000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1555394887613</created>
@@ -338,14 +367,29 @@
       <option name="project" value="LOCAL" />
       <updated>1555401484251</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Initial commit">
+      <created>1555514531832</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1555514531832</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Servlet - Lesson One - Simple Calculator using only Servlet">
+      <created>1555514570656</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1555514570656</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17906000" />
+    <option name="totallyTimeSpent" value="30083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -365,7 +409,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3665087" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28593996" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39968404" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -385,9 +429,10 @@
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Initial commit" />
     <MESSAGE value="Servlet and JSP - Lesson One - Simple Calculator" />
-    <option name="LAST_COMMIT_MESSAGE" value="Servlet and JSP - Lesson One - Simple Calculator" />
+    <MESSAGE value="Initial commit" />
+    <MESSAGE value="Servlet - Lesson One - Simple Calculator using only Servlet" />
+    <option name="LAST_COMMIT_MESSAGE" value="Servlet - Lesson One - Simple Calculator using only Servlet" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/servlet-api/2.5/servlet-api-2.5-sources.jar!/javax/servlet/http/HttpServlet.java">
@@ -399,52 +444,62 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="2" selection-start-line="12" selection-start-column="2" selection-end-line="12" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="22" column="22" lean-forward="true" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletTwo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        <state relative-caret-position="153">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/labone.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="52" column="24" selection-start-line="52" selection-start-column="24" selection-end-line="52" selection-end-column="24" />
           <folding>
             <element signature="n#style#0;n#head#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletOne.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlets/HelloServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+        <state relative-caret-position="136">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="112">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="49" lean-forward="true" selection-start-line="12" selection-end-line="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/servlets/CalculatorServletTwo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="36" column="48" selection-start-line="36" selection-start-column="48" selection-end-line="36" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -506,11 +561,12 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Web|Servlet</last-edited>
+          <last-edited>Servlet</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -530,7 +586,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: javax.servlet:servlet-api:2.5</last-edited>
+          <last-edited>Maven: javax.servlet:servlet-api:3.0-alpha-1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
