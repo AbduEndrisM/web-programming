@@ -1,0 +1,82 @@
+<!--
+  Created by IntelliJ IDEA.
+  User: Abdu
+  Date: 16-Apr-19
+  Time: 12:41 AM
+  To change this template use File | Settings | File Templates.
+-->
+<!--<%@ page contentType="text/html;charset=UTF-8" language="java" %>-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Title</title>
+    <style>
+        .container {
+            margin: 15px;
+            padding: 15px;
+            display: block;
+            /*border: solid red 1px;*/
+
+        }
+
+        input[type=text] {
+            width: 50px;
+            padding: 5px;
+            margin: 5px;
+            box-sizing: border-box;
+            /*border: 1px solid green;*/
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            /*background-color: #4CAF50;*/
+            border: none;
+            /*color: white;*/
+            padding: 10px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+
+<h3> Servlet: Home work -  One </h3>
+</br>
+
+
+<h4>Question #1</h4>
+
+
+<div class="container">
+    <form action="calculatorOne" method="GET">
+        <div>
+            <input type="text" name="num1"> +
+            <input type="text" name="num2">
+        </div>
+        <div>
+            <input type="text" name="num3"> +
+            <input type="text" name="num4">
+        </div>
+        <input type="submit" value="Submit"/>
+    </form>
+
+</div>
+
+<h4>Question #2</h4>
+<div class="container">
+    <form action="calculatorTwo" method="GET">
+        <div>
+            <input type="text" name="num1"> +
+            <input type="text" name="num2"> =    <input type="text" name="result1" readonly>
+        </div>
+        <div>
+            <input type="text" name="num3"> +
+            <input type="text" name="num4"> =  <input type="text" name="result2" readonly>
+        </div>
+        <input type="submit" value="Submit"/>
+    </form>
+</div>
+</body>
+</html>
