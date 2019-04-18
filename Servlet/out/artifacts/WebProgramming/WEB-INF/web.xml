@@ -23,14 +23,25 @@
         <url-pattern>/calculatorTwo</url-pattern>
     </servlet-mapping>
 
-
-
     <servlet>
         <servlet-name>helloworld</servlet-name>
         <servlet-class>com.servlets.HelloServlet</servlet-class>
     </servlet>
+
     <servlet-mapping>
         <servlet-name>helloworld</servlet-name>
         <url-pattern>/HelloServlet</url-pattern>
     </servlet-mapping>
+
+
+    <servlet>
+        <servlet-name>NumberQuizServlet</servlet-name>
+        <servlet-class>com.servlets.NumberQuizServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>NumberQuizServlet</servlet-name>
+        <url-pattern>/NumberQuiz</url-pattern>
+    </servlet-mapping>
+
+
 </web-app>
