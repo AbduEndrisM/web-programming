@@ -17,30 +17,44 @@ public class NumberQuizServlet extends HttpServlet {
         // seesion id is object of the Quiz
         if (session.getAttribute("quiz") == null) {
             quiz = new Quiz();
-            session.setAttribute("quiz", new Quiz());
+            session.setAttribute("quiz", quiz);
+            session.setAttribute("question", quiz.getNextQuestion());
 
         } else {
+
+
+            Quiz quiz2 = (Quiz)session.getAttribute("quiz");
+            String question = (String)quiz2.getNextQuestion();
+
+            if(question == null){
+                request.getRequestDispatcher("/labtwo.jsp").forward(request, response);
+                return;
+            }
+
             String answer = request.getParameter("answer");
             quiz = (Quiz) session.getAttribute("quiz");
             quiz.checkAnswer(answer);
             session.setAttribute("quiz", quiz);
-        }
-        PrintWriter out = response.getWriter();
-        response.setContentType("text/html");
+            session.setAttribute("question", question);
 
-        String question = quiz.getNextQuestion();
-        out.println("<h1>The Number Quiz</h1>");
-        out.println("<p>Your current score: </p>" + quiz.getScore());
-        if (quiz.getNextQuestion() == null) {
-            out.println("You have completed the quiz, wiht a score" + quiz.getScore() + " out of " + quiz.getTotalScore());
-        } else {
-            out.println("Guess the next number in the sequence.");
-            out.println(quiz.getNextQuestion());
-            out.println("<form action=\"NumberQuiz\" method=\"POST\">");
-            out.println("Your answer <input name=\"answer\"/>");
-            out.println("<input type=\"submit\" name=\"submit\"/>");
-            out.println("</form");
+            response.sendRedirect("lab2.jsp");
         }
+//        PrintWriter out = response.getWriter();
+//        response.setContentType("text/html");
+//
+//        String question = quiz.getNextQuestion();
+//        out.println("<h1>The Number Quiz</h1>");
+//        out.println("<p>Your current score: </p>" + quiz.getScore());
+//        if (quiz.getNextQuestion() == null) {
+//            out.println("You have completed the quiz, wiht a score" + quiz.getScore() + " out of " + quiz.getTotalScore());
+//        } else {
+//            out.println("Guess the next number in the sequence.");
+//            out.println(quiz.getNextQuestion());
+//            out.println("<form action=\"NumberQuiz\" method=\"POST\">");
+//            out.println("Your answer <input name=\"answer\"/>");
+//            out.println("<input type=\"submit\" name=\"submit\"/>");
+//            out.println("</form");
+//        }
 
 
     }
