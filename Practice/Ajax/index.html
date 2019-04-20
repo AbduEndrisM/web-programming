@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AJax</title>
+    <script src="jquery-3.4.0.js"></script>
+    <script>
+
+        $("submit").click(function () {
+
+
+
+            $.get("http://jsonplaceholder.typicode.com/users")
+                .done(twitter());
+
+        });
+
+        function twitter(jsonData) {
+        console.log("abdu");
+
+        }
+
+    </script>
+</head>
+<body>
+
+<form>
+    <input type="submit" name="submit" id="submit"/>
+</form>
+
+
+</body>
+</html>
