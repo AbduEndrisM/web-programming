@@ -7,7 +7,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.PrintWriter;
 
 @WebServlet("/login")
 public class LoginServlet extends HttpServlet {
@@ -17,14 +16,20 @@ public class LoginServlet extends HttpServlet {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-        HttpSession session = request.getSession();
-        session.setMaxInactiveInterval(10*60);
-        session.setAttribute("username", request.getParameter("username"));
-        session.setAttribute("password", request.getParameter("password"));
+        String username = request.getParameter("username");
+        String password = request.getParameter("password");
 
-        response.sendRedirect("index.jsp");
-//        PrintWriter out = response.getWriter();
-//        out.println(request.getParameter("username"));
+        // Normally we check the username and password from the database and if exists we create the session id
+        if (!(username.equals(""))) {
+            HttpSession session = request.getSession();
+            session.setMaxInactiveInterval(10 * 60);
+            session.setAttribute("username", username);
+            response.sendRedirect("welcome.jsp");
+        }
+        else{
 
+            request.setAttribute("error", "Login Error ...");
+            response.sendRedirect("login.jsp");
+        }
     }
 }
