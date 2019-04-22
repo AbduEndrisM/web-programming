@@ -15,7 +15,7 @@
 
 <h1 align="center"> Beer selection page</h1>
 
-<form method="POST" action="SelectBeer">
+<form method="GET" action="SelectBeer">
     Select beer characteristics <p>
     color:
 </p>
@@ -32,12 +32,14 @@
 
 </form>
 
+<%--
 
 <% List styles = (List) request.getAttribute("styles");
     Iterator it = styles.iterator();
     while (it.hasNext()) {
         out.print("<br>try:" + it.next());
     } %>
+--%>
 
 
 </body>
