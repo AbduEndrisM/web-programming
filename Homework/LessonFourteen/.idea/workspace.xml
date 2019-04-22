@@ -1,19 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="CustomTags:Web exploded" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5b484989-7f51-4704-b77d-cd336b3c662b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/web/result.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/CoffeShop/.idea/artifacts/CoffeShop_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/CoffeShop/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/CoffeShop/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/CoffeShop/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/CoffeShop/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/CoffeShop/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/CoffeShop/CoffeShop.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/CoffeShop/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/CoffeShop/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/CoffeShop/web/coffee.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/CoffeShop/web/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/.idea/artifacts/Signup_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/Signup.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/src/main/java/com/abdu/ajax/SignupServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/web/register.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Ajax/Signup/web/signup.jsp" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/LoginServlet/.idea/artifacts/LoginServlet_Web_exploded.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/LoginServlet/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/LoginServlet/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/LoginServlet/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/LoginServlet/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/LoginServlet/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/LoginServlet/LoginServlet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/LoginServlet/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/LoginServlet/src/main/java/com/abdu/servlet/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/Filter/src/main/java/LoginListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/Promise/.idea/artifacts/Promise_Web_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/Promise/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/Promise/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/Promise/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/Promise/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/Promise/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/Promise/Promise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/Promise/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Practice/Servlet/Promise/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/CustomTagServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/CustomTagServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/web/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practice/Servlet/.idea/.name" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practice/Servlet/.idea/artifacts/JSTL_Web_exploded.xml" beforeDir="false" />
@@ -21,7 +51,9 @@
       <change beforePath="$PROJECT_DIR$/../../Practice/Servlet/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practice/Servlet/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practice/Servlet/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice/Servlet/Filter/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/Servlet/Filter/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practice/Servlet/JSTL.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Practice/Servlet/LoginServlet/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Practice/Servlet/LoginServlet/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practice/Servlet/pom.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practice/Servlet/src/main/java/com/abdu/servlet/LoginServlet.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Practice/Servlet/src/main/java/com/abdu/servlet/User.java" beforeDir="false" />
@@ -53,17 +85,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/result.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="289">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+            <state relative-caret-position="122">
+              <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/CustomTagServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
             </state>
           </provider>
         </entry>
@@ -85,8 +135,17 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/web/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/CustomTagServlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       </list>
     </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="200" />
@@ -146,7 +205,8 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555769072706" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555877222129" />
+    <property name="last_opened_file_path" value="D:/GitHub Projects/Bootstrap" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Facets" />
@@ -250,7 +310,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555767804507</updated>
-      <workItem from="1555767809758" duration="1211000" />
+      <workItem from="1555767809758" duration="5240000" />
     </task>
     <task id="LOCAL-00001" summary="Lesson Fourteen - Home work - Servlet : Custom tags [forEach, currentDateTime">
       <created>1555768129428</created>
@@ -259,11 +319,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555768129428</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Lesson Fourteen - Home work - Servlet : Custom tags [forEach, currentDateTime">
+      <created>1555769111592</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555769111592</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1211000" />
+    <option name="totallyTimeSpent" value="5240000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -274,18 +341,20 @@
       <window_info id="Capture Tool" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info id="Web" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
+      <window_info id="Web" sideWeight="0.5011765" side_tool="true" weight="0.24963397" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49882352" visible="true" weight="0.24963397" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Application Servers" weight="0.14533965" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.328594" />
       <window_info anchor="bottom" id="Java Enterprise" />
       <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.19747235" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -316,17 +385,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/result.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/CustomTagServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="102">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="122">
+          <caret line="35" column="25" selection-start-line="35" selection-start-column="25" selection-end-line="35" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
